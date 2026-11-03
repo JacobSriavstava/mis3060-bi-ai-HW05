@@ -160,4 +160,7 @@ Does not require DAX
 
 3. fact_portfolio_snapshot
 Question: How much money does Wildcat Capital manage each year?
-Can not be answered without a DAX. To fix this, I would add a flag to fact_portfolio_snapshot like is year end. I would set it to 1 on each clients last snapshot of the year and 0 otherwise. Then I could filter the visual and sum aum by year. 
+Can not be answered without a DAX. To fix this, I would add a flag to fact_portfolio_snapshot like is year end. I would set it to 1 on each clients last snapshot of the year and 0 otherwise. Then I could filter the visual and sum aum by year.
+
+---
+I used Claude Code and Claude to help me answer questions and pull insight. Whenever I used insight, I validated it with the data. 
